@@ -5,6 +5,10 @@ import repa4 from './img4.jpeg'
 import repa5 from './img5.jpg'
 import repa6 from './img6.jpg'
 
+import repa7 from './img7.jpg'
+import repa8 from './img5.jpg'
+import repa9 from './img6.jpg'
+
 export const repas = [
     {
         id:1,
@@ -41,5 +45,26 @@ export const repas = [
         image:repa6,
         name:'Tasty Dish',
         price:18.25
+    },
+];
+
+export const menuPremium = [
+    {
+        id:1,
+        image:repa7,
+        name:'Delicious Dish',
+        price:30.05
+    },
+    {
+        id:2,
+        image:repa5,
+        name:'Delicious Dish',
+        price:28.34
+    },
+    {
+        id:3,
+        image:repa6,
+        name:'Delicious Dish',
+        price:29.99
     },
 ]
