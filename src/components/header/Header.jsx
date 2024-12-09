@@ -11,7 +11,7 @@ const Header = () => {
     }
 
   return (
-    <div className='fixed bg-white z-50 w-full py-5' >
+    <div className='fixed bg-white z-50 w-full py-5 shadow-lg' >
         <div className='max-w-7xl mx-auto flex justify-between items-center px-7' >
             <div className='flex items-center gap-1' >
                 <img src={logo} alt="logo du site" className='w-10 h-10' />

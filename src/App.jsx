@@ -1,4 +1,5 @@
 import About from "./components/about/About";
+import CustomerReview from "./components/customerReview/CustomerReview";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import PremuinDish from "./components/premuinDish/PremuinDish";
@@ -12,6 +13,7 @@ function App() {
          <Repas/>
          <About/>
          <PremuinDish/>
+         <CustomerReview/>
     </div>
   )
 }
