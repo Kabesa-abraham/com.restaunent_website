@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 
 const Home = () => {
   return (
-    <div className='relative max-w-full min-h-screen'>
+    <div className='relative max-w-full min-h-screen' id='home'>
         <img src={bgImge} alt="" className='w-full min-h-screen object-cover' />
         <div className='absolute w-full h-full top-0 text-white flex items-center' >
             <div className='max-w-7xl w-full mx-auto px-10' >

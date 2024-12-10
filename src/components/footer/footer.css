@@ -1,0 +1,12 @@
+.someOptionContainer{
+    @apply flex flex-col gap-5
+}
+.titleOption{
+    @apply font-light text-lg lg:text-xl 
+}
+.someOptionContainerInside{
+    @apply text-gray-400 flex flex-col gap-5 font-semibold
+}
+.someOptionContainerInside li{
+    @apply hover:text-green-300 duration-200 text-xs lg:text-sm
+}

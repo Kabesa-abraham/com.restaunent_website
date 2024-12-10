@@ -4,7 +4,7 @@ import Card from '../card/Card'
 
 const PremuinDish = () => {
   return (
-    <div className='max-w-7xl mx-auto flex flex-col items-center gap-5 mb-5' >
+    <div className='max-w-7xl mx-auto flex flex-col items-center gap-5 mb-5' id='premiumDish' >
         <h1 className='text-4xl font-semibold text-center' >Menu Premuin</h1>
        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5' >
         {
